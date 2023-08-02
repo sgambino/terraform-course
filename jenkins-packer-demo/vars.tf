@@ -1,13 +1,13 @@
 variable "AWS_REGION" {
-  default = "eu-west-1"
+  default = "us-east-1"
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "mykey"
+  default = "sgambino0801"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "mykey.pub"
+  default = "sgambino0801.pub"
 }
 
 variable "INSTANCE_DEVICE_NAME" {
@@ -15,7 +15,7 @@ variable "INSTANCE_DEVICE_NAME" {
 }
 
 variable "JENKINS_VERSION" {
-  default = "2.375.1"
+  default = "2.401.3"
 }
 
 variable "TERRAFORM_VERSION" {
